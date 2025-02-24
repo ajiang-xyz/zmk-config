@@ -8,5 +8,8 @@
 
 		default_layer {
             display_name = "Default Layer";
-			bindings = <
-                &kp KP_TAB  
+			bindings = < >;
+		};
+
+	};
+};
