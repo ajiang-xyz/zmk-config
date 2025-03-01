@@ -18,6 +18,13 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  build:
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+
 include:
   - board: nice_nano_v2
     shield: Forty
