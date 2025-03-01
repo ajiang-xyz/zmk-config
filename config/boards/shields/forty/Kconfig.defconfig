@@ -3,4 +3,6 @@ if SHIELD_FORTY
 config ZMK_KEYBOARD_NAME
     default "Forty"
 
+CONFIG_ZMK_BLE_EXPERIMENTAL_FEATURES=y
+
 endif
